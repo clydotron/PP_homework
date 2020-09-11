@@ -13,9 +13,8 @@ function Workspace({}) {
   const [view,setView] = React.useState('Roadmap');
 
   function renderCurrentView() {
-    console.log(view)
     switch(view) {
-      case 'roadmap':
+      case 'Roadmap':
         break;
     }
   }
